@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee                                        http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <!-- Define the controller servlet -->
+    <servlet>
+        <servlet-name>BeerSelect</servlet-name>
+        <servlet-class>com.hemmerling.aufgabe03_bierberater.web.BeerSelect3</servlet-class>
+    </servlet>
+    <!-- END: Define the controller servlet -->
+    <!-- The controller mapping -->
+    <servlet-mapping>
+        <servlet-name>BeerSelect</servlet-name>
+        <url-pattern>/BeerSelect.do</url-pattern>
+    </servlet-mapping>
+    <!-- END: The controller mapping -->
+</web-app>
